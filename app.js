@@ -1,5 +1,5 @@
 let listasdenumerossorteados = []
-let nunmerolimite = 10;
+let nunmerolimite = 100;
 let numerosecreto = gerarnumero();
 let tentativa = 0;
 
@@ -10,7 +10,7 @@ function exibirTextonaTela(tag, texto){
 
 function novojogo(){
     exibirTextonaTela('h1', 'Jogo do Número Secreto');
-    exibirTextonaTela('p', 'escolha um número entre 1 e 10');
+    exibirTextonaTela('p', 'escolha um número entre 1 e 100');
 }
 
 novojogo()
